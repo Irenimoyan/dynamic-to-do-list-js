@@ -1,5 +1,5 @@
 // Wait for the DOM to fully load before running the script
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     
     // select necessary DOM element
     const addButton = document.getElementById('add-task-btn');
@@ -47,4 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
             addTask();
         }
     });
-})
+    // Call addTAsk on page load(optional in this context, usually used for loading saved tasks)
+// addTask(); // you can enable this if you want to pre-populate tasks or test load
+});

@@ -12,13 +12,13 @@ body {
     width: 100%;
     max-width: 400px;
     background: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 #task-input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
